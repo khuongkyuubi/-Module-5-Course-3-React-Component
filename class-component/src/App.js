@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import AddComponent from "./components/AddComponent";
 
 function App() {
   return (
@@ -9,6 +10,11 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <AddComponent
+          firstNumber = {1}
+          secondNumber = {2}
+
+        />
         <a
           className="App-link"
           href="https://reactjs.org"
