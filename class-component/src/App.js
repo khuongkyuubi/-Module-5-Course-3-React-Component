@@ -11,8 +11,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <AddComponent
-          firstNumber = {1}
-          secondNumber = {2}
+          firstNumber = {5}
+          secondNumber = {4}
 
         />
         <a
